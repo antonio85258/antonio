@@ -1,5 +1,28 @@
  .button {
     background-color: transparent;
     border: none;
-    text-align: justify;
+    color: #ff0070;
+    font-size: 18px;
+ }
+nav {
+    display: flex;
+    justify-content: center;
 }
+.button:hover {
+    cursor: pointer;
+}
+.isActiveButton {
+    border: 1px solid #ff0070;
+    background-color: transparent;
+    color: #ff0070;
+    font-size: 18px;
+}
+header {
+background-image: url("../img/cover-image-dark.svg");
+background-position: center;
+background-repeat: no-repeat;
+}
+h1 {
+
+}
+
