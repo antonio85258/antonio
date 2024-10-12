@@ -1,3 +1,17 @@
+ @font-face {
+    font-family: 'IBM Plex Mono';
+    src: url(./fonts/IBMPlexMono-Bold.ttf);
+    font-weight: 700px;
+ }
+ @font-face {
+    font-family: 'IBM Plex Mono';
+    src: url(./fonts/IBMPlexMono-Regular.ttf);
+    font-weight: 400;
+ }
+ html {
+    background-image: url(../image/cover-image-dark.png);
+    margin: 0;
+ }
  .button {
     background-color: transparent;
     border: none;
@@ -6,7 +20,9 @@
  }
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 340px;
 }
 .button:hover {
     cursor: pointer;
@@ -17,12 +33,66 @@ nav {
     color: #ff0070;
     font-size: 18px;
 }
-header {
-background-image: url("../img/cover-image-dark.svg");
-background-position: center;
-background-repeat: no-repeat;
+.title {
+    font-family: 'IBM Plex Mono';
+    width: 750px;
+    height: 130px;
+    background-color: transparent;
 }
-h1 {
-
+.title h1 {
+    position: absolute;
+    width: 759px;
+    height: 130px;
+    left: 0;
+    top: cacl(50% - 130px/2);
+    font-family: 'IBM Plex Mono';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 82.5%;
+    color: #DB00FF;
+    text-shadow: 4px 4ox 0 #ff0070;
+}
+.rec {
+    position: absolute;
+    width: 33px;
+    height: 26px;
+    left: 943px;
+    top: 20px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ff0070;
+}
+.ellipse {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    left: 986px;
+    top: 28px;
+    background: #ff0070;
+    border-radius: 50%;
+    box-shadow:  0 0 4px 2px #ff0070;
+    
+} 
+p {
+    margin: 0;
+}
+p {
+    position: absolute;
+    width: 759px;
+    height: 130px;
+    left: 0;
+    top: cacl(50% - 130px/2);
+    font-family: 'IBM Plex Mono';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 82.5%;
+    color: #DB00FF;
+    text-shadow: 4px 4ox 0 #ff0070;
 }
 
