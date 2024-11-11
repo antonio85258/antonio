@@ -1,94 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla+Tamil+Upright:wght@400;700&display=swap');
-.kukushka {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 25px;
-    height: 60px;
-    background-color: red;
-    justify-content: left;
-    gap: 10px;
-    width: 100%;
-    align-items: center;
-   text-decoration: none;
-}
-.kukushka img {
-height: 35px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    margin: 0;
-    font-family: Karla Tamil Upright, sans-serif;
-   
-   
+    margin: 0 10%;
+    font-family: Doto, sans-serif;
+    background-color: #F1F4F9;
 }
-.main {
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-   gap: 20px;
-   background-color: red;
-   height: 60px;
+h1 {
+ font-size: 34px;
+ color: #474747;
 }
-.main > a {
-    text-decoration: none;
-    color: black;
-    justify-content: right;
+.filtri > h3 {
+color: #979EA6;
+font-size: 14px;
+margin-top: 0;
 }
-.header {
-    display: flex;
+.filtri2 {
+display: flex;
+gap: 8px;
 }
-.main img {
-    height: 50px;
-    justify-content: right;
-    width: 50px;
+.filtri3 {
+display: flex;
+justify-content: space-between;
+border-radius: 10px;
+background: linear-gradient(270deg, #FD814A -12.71%, #FC5C4C 121.19%);
+box-shadow: 0 5px 20px 0 #FD714B40;
+width: 121px;
+height: 41px;
+padding: 5px 11px;
+font-size: 14px;
+color: #fff;
 }
-.gg  {
-    display: block;
-    padding-top: 0;
-    background-color: red;
+.filtri4 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 121px;
+height: 41px;
+padding: 5px 11px;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(270deg, #FD814A -12.71%, #FC5C4C 121.19%);
+box-shadow: 0 5px 20px 0 #FD714B40;
 }
-.knopochka {
-display: none;
-position: absolute;
+.filtri3 > button {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
-.gg:hover .knopochka {
-    display: block;
-    background-color: red;
-    padding-top: 25px;
+.filtri4 > button {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
-.reg {
-    display: flex;
-    padding-top: 300px;
-    font-size: 60px;
-    font-weight: bold;
-    height: 50px;
-    width: 100%;
+.kartinki {
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  object-fit: cover;
+}
+.galleri {
+  overflow: hidden;
+  object-fit: cover;
+  width: 343px;
+  height: 225px;
+  border-radius: 10px;
+}
+.photo {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  width: 100%;
+  gap: 1px;
+  height: 164px;
+}
+.photo > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.photo > img:first-of-type {
+  grid-row: 1 / 3;
+}
+.panel > span {
+  width: 328px;
+  height: 31px;
+  top: 398px;
+  left: 27px;
+font-size: 18px;
+line-height: 21.24px;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+.panel > button {
+  width: 24px;
+height: 24px;
+color: #fff;
+border-radius: 5px;
+background: #C4C4C4;
+}
+.panel {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+.panel > span {
+  color: #000;
+  padding-left: 10px;
 }
 
-  .container {
-    padding-top: 600px;
-  }
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: aqua;
-  }
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
- 
-  .registerbtn {
-    background-color: black;
-    color: aqua;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-
-  
